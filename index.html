@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreyas | Portfolio</title>
+    <meta
+      name="description"
+      content="Modern royal blue and black portfolio website for showcasing skills, projects, and contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="header">
+        <a class="brand" href="#home">SB</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="navMenu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy fade-up">
+            <p class="eyebrow">Available full-time roles</p>
+            <h1>
+              Hi, I’m <span class="highlight">Shreyas</span>.<br />
+              I build clean, modern web experiences.
+            </h1>
+            <p class="hero-text">
+              I’m a front-end developer focused on elegant interfaces, smooth user
+              experiences, and fast-loading websites that look great on every device.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Let’s Talk</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <strong>3+</strong>
+                <span>Years building</span>
+              </div>
+              <div>
+                <strong>12+</strong>
+                <span>Projects delivered</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Responsive design</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-card fade-up delay-1">
+            <div class="hero-card__glow"></div>
+            <p class="card-label">Featured Stack</p>
+            <h2>HTML · CSS · JavaScript</h2>
+            <p>
+              GitHub + Amazon S3 deployment.
+            </p>
+            <ul>
+              <li>Modern royal blue + black theme</li>
+              <li>Single-page responsive layout</li>
+              <li>GitHub Actions auto deploy</li>
+              <li>Amazon S3 static hosting ready</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section class="section about fade-up" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>A short intro</h2>
+          </div>
+          <div class="about-grid">
+            <div class="panel">
+              <p>
+                I design and build websites that feel polished, modern, and easy to use.
+                My work combines clear structure, visual balance, and performance-focused code.
+              </p>
+            </div>
+            <div class="panel panel-accent">
+              <h3>What I focus on</h3>
+              <p>
+                Responsive design, clean UI systems, landing pages, portfolio sites, and deployment-ready static websites.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section fade-up" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Core strengths</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript, responsive layouts, accessibility basics.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Design Sense</h3>
+              <p>Modern UI styling, spacing systems, contrast, typography, and visual hierarchy.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Deployment</h3>
+              <p>GitHub, GitHub Actions, Amazon S3 static website hosting, simple CI/CD setup.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section fade-up" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="project-tag">Portfolio</span>
+              <h3>Personal Portfolio</h3>
+              <p>A modern, elegant site to present profile, skills, and projects.</p>
+              <a href="#contact">See details</a>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Landing Page</span>
+              <h3>Product Showcase</h3>
+              <p>A high-conversion layout for introducing products and collecting leads.</p>
+              <a href="#contact">See details</a>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Business Site</span>
+              <h3>Service Website</h3>
+              <p>A responsive business site designed for trust, speed, and clarity.</p>
+              <a href="#contact">See details</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact fade-up" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something great</h2>
+          </div>
+
+          <div class="contact-card">
+            <p>
+              Replace these details with your real email, LinkedIn, GitHub, and phone number.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:yourname@email.com">yourname@email.com</a>
+              <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Your Name. Built with HTML, CSS, and JavaScript.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
