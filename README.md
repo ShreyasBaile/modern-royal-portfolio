@@ -1,30 +1,49 @@
 # Modern Royal Portfolio
 
-A modern single-page portfolio site with a royal blue and black design.
+A responsive personal portfolio website built using HTML, CSS, and JavaScript.  
+The project is deployed on AWS S3 static website hosting and uses GitHub Actions for automatic deployment.
 
-## Files
+---
 
-- `index.html` - main website
-- `styles.css` - styling
-- `script.js` - mobile menu and scroll animation
-- `404.html` - error page for S3 static hosting
-- `.github/workflows/deploy.yml` - GitHub Actions deployment workflow
-- `aws/iam-trust-policy.json` - IAM trust policy for GitHub OIDC
-- `aws/iam-permissions-policy.json` - IAM permissions policy for S3 access
-- `aws/s3-bucket-policy.json` - bucket policy for public website access
-- `DEPLOYMENT-GUIDE.md` - step-by-step deploy guide
+## 🚀 Features
 
-## Before deploy
+- Responsive design
+- Modern royal blue theme
+- Project showcase section
+- Contact section
+- AWS S3 static website hosting
+- GitHub Actions CI/CD deployment
 
-Replace placeholder values in:
+---
 
-- `index.html`
-- `aws/iam-trust-policy.json`
-- `aws/iam-permissions-policy.json`
-- `aws/s3-bucket-policy.json`
+## 🛠️ Tech Stack
 
-## GitHub secrets needed
+- HTML
+- CSS
+- JavaScript
+- AWS S3
+- AWS IAM
+- GitHub Actions
+- Git
+- Linux
 
-- `AWS_ROLE_ARN`
-- `AWS_REGION`
-- `S3_BUCKET_NAME`
+---
+
+## ☁️ Deployment
+
+This project was deployed using:
+
+- AWS S3 static website hosting
+- IAM user permissions
+- GitHub Actions workflow
+- GitHub repository secrets
+- Linux/Git commands
+
+---
+
+## 📚 What I Learned
+
+- How to host a static website on AWS S3
+- How to configure GitHub Actions for CI/CD
+- How to use IAM permissions securely
+- How to manage project deployment using Git and Linux
