@@ -411,8 +411,10 @@ a {
   }
 
   .header {
-    border-radius: 24px;
-    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
   }
 
   .menu-toggle {
