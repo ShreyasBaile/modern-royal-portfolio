@@ -1,185 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shreyas Baile| Portfolio</title>
-    <meta
-      name="description"
-      content="Modern royal blue and black portfolio website for showcasing skills, projects, and contact details."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="site-shell">
-      <header class="header">
-        <a class="brand" href="#home">SB</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreyas Baile | Cloud & DevOps Portfolio</title>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-        </button>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <nav class="nav" id="navMenu">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      <main>
-        <section class="hero" id="home">
-          <div class="hero-copy fade-up">
-            <p class="eyebrow">Available for Cloud Computing & DevOps Roles</p>
+<body>
+<div class="site-shell">
 
-              <h1>
-                Hi, I’m <span class="highlight">Shreyas Baile</span>.<br />
-                Cloud Computing & Infrastructure Enthusiast
-              </h1>
+  <!-- HEADER -->
+  <header class="header">
+    
+    <a class="brand" href="#home">SB</a>
 
-              <p class="hero-text">
-                I build and deploy scalable cloud solutions using AWS services, GitHub Actions,
-                and modern deployment workflows. Experienced with cloud networking, storage,
-                CI/CD automation, and secure infrastructure setup.
-              </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#projects">View Projects</a>
-              <a class="btn btn-secondary" href="#contact">Let’s Talk</a>
-            </div>
-            <div class="hero-meta">
-              <div>
-                <strong>3+</strong>
-                <span>Years building</span>
-              </div>
-              <div>
-                <strong>12+</strong>
-                <span>Projects delivered</span>
-              </div>
-              <div>
-                <strong>100%</strong>
-                <span>Responsive design</span>
-              </div>
-            </div>
-          </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-          <aside class="hero-card fade-up delay-1">
-            <div class="hero-card__glow"></div>
-            <p class="card-label">Featured Stack</p>
-            <h2>HTML · CSS · JavaScript</h2>
-            <p>
-              GitHub + Amazon S3 deployment.
-            </p>
-            <ul>
-              <li>Modern royal blue + black theme</li>
-              <li>Single-page responsive layout</li>
-              <li>GitHub Actions auto deploy</li>
-              <li>Amazon S3 static hosting ready</li>
-            </ul>
-          </aside>
-        </section>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      ☰
+    </button>
 
-        <section class="section about fade-up" id="about">
-          <div class="section-heading">
-            <p class="eyebrow">About</p>
-            <h2>A short intro</h2>
-          </div>
-          <div class="about-grid">
-            <div class="panel">
-              <p>
-                I design and build websites that feel polished, modern, and easy to use.
-                My work combines clear structure, visual balance, and performance-focused code.
-              </p>
-            </div>
-            <div class="panel panel-accent">
-              <h3>What I focus on</h3>
-              <p>
-                Responsive design, clean UI systems, landing pages, portfolio sites, and deployment-ready static websites.
-              </p>
-            </div>
-          </div>
-        </section>
+  </header>
 
-        <section class="section fade-up" id="skills">
-          <div class="section-heading">
-            <p class="eyebrow">Skills</p>
-            <h2>Core strengths</h2>
-          </div>
+  <!-- HERO -->
+  <main>
 
-          <div class="skills-grid">
-            <article class="skill-card">
-              <h3>Frontend</h3>
-              <p>HTML, CSS, JavaScript, responsive layouts, accessibility basics.</p>
-            </article>
-            <article class="skill-card">
-              <h3>Design Sense</h3>
-              <p>Modern UI styling, spacing systems, contrast, typography, and visual hierarchy.</p>
-            </article>
-            <article class="skill-card">
-              <h3>Deployment</h3>
-              <p>GitHub, GitHub Actions, Amazon S3 static website hosting, simple CI/CD setup.</p>
-            </article>
-          </div>
-        </section>
+    <section class="hero" id="home">
 
-        <section class="section fade-up" id="projects">
-          <div class="section-heading">
-            <p class="eyebrow">Projects</p>
-            <h2>Selected work</h2>
-          </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Cloud Computing • DevOps • AWS</p>
 
-          <div class="projects-grid">
-            <article class="project-card">
-              <span class="project-tag">Portfolio</span>
-              <h3>Personal Portfolio</h3>
-              <p>A modern, elegant site to present profile, skills, and projects.</p>
-              <a href="#contact">See details</a>
-            </article>
-            <article class="project-card">
-              <span class="project-tag">Landing Page</span>
-              <h3>Product Showcase</h3>
-              <p>A high-conversion layout for introducing products and collecting leads.</p>
-              <a href="#contact">See details</a>
-            </article>
-            <article class="project-card">
-              <span class="project-tag">Business Site</span>
-              <h3>Service Website</h3>
-              <p>A responsive business site designed for trust, speed, and clarity.</p>
-              <a href="#contact">See details</a>
-            </article>
-          </div>
-        </section>
+        <h1>
+          Hi, I’m <span class="highlight">Shreyas Baile</span><br/>
+          Cloud & DevOps Engineer
+        </h1>
 
-        <section class="section contact fade-up" id="contact">
-          <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h2>Let’s build something great</h2>
-          </div>
+        <p class="hero-text">
+          I build and deploy scalable cloud solutions using AWS, GitHub Actions,
+          and modern DevOps practices. Focused on automation, infrastructure, and real-world cloud systems.
+        </p>
 
-          <div class="contact-card">
-            <p>
-              Replace these details with your real email, LinkedIn, GitHub, and phone number.
-            </p>
-            <div class="contact-links">
-              <a href="mailto:yourname@email.com">yourname@email.com</a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </section>
-      </main>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
 
-      <footer class="footer">
-        <p>© <span id="year"></span> Your Name. Built with HTML, CSS, and JavaScript.</p>
-      </footer>
-    </div>
+        <div class="hero-meta">
+          <div><strong>AWS</strong><span>Cloud Deployments</span></div>
+          <div><strong>CI/CD</strong><span>GitHub Actions</span></div>
+          <div><strong>Infra</strong><span>VPC & Peering</span></div>
+        </div>
+      </div>
 
-    <script src="script.js"></script>
-  </body>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a Cloud Computing enthusiast with hands-on experience in AWS services,
+        CI/CD pipelines, and cloud architecture. I specialize in deploying modern web apps
+        using S3, GitHub Actions, and automation workflows.
+      </p>
+
+      <p>
+        I also work on networking concepts like VPC and VPC Peering, and I enjoy building
+        real-world cloud projects that simulate enterprise infrastructure.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Cloud</h3>
+          <p>AWS (S3, EC2, IAM, VPC, VPC Peering)</p>
+        </div>
+
+        <div class="card">
+          <h3>DevOps</h3>
+          <p>Git, GitHub, GitHub Actions CI/CD, Automation</p>
+        </div>
+
+        <div class="card">
+          <h3>Development</h3>
+          <p>HTML, CSS, JavaScript, Responsive UI</p>
+        </div>
+
+        <div class="card">
+          <h3>AI / IoT</h3>
+          <p>IoT Home Security System with Machine Learning alerts</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Cloud Portfolio Deployment</h3>
+          <p>
+            Hosted portfolio using AWS S3 with GitHub Actions CI/CD pipeline for automated deployment.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>VPC & VPC Peering Setup</h3>
+          <p>
+            Designed secure AWS networking architecture using VPC, subnets, routing, and peering connections.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>IoT Home Security System</h3>
+          <p>
+            Smart home security system using IoT sensors and machine learning-based anomaly detection alerts.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+
+      <div class="contact-box">
+
+        <p>Email: <a href="mailto:shreyasbaile42@gmail.com">shreyasbaile42@gmail.com</a></p>
+
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/shreyas-baile" target="_blank">
+            linkedin.com/in/shreyas-baile
+          </a>
+        </p>
+
+        <p>
+          GitHub:
+          <a href="https://github.com/ShreyasBaile" target="_blank">
+            github.com/ShreyasBaile
+          </a>
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Shreyas Baile | Cloud & DevOps Portfolio</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
